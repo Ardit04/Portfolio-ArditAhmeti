@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ardit Ahmeti</title>
-    <link rel="icon" href="rocket.png">
+    <link rel="icon" href="img/rocket.png">
     <link rel="stylesheet" href="/css/app.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 
@@ -89,7 +89,7 @@
         </div>
 
         <div class="flex flex-wrap justify-center gap-6">
-            <a href="arditahmeti-cv.pdf" download class="inline-flex items-center text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg transition">
+            <a href="/pdf/arditahmeti-cv.pdf" download class="inline-flex items-center text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg transition">
                 Here is my CV
                 <svg class="w-5 h-5 ml-2 text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 18">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 1v11m0 0 4-4m-4 4L4 8m11 4v3a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-3" />
