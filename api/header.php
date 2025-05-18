@@ -14,7 +14,7 @@
     <header class="text-gray-600 body-font bg-blue-100">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
             <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0" href="home.php">
-            <img src="rocket.png" class="w-5 h-5" alt="Logo">
+            <img src="/img/dev.png" class="w-5 h-5" alt="Logo">
             <span class="ml-3 text-xl"><b>Ardit Ahmeti</b> </span>
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
