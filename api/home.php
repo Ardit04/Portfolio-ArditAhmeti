@@ -48,7 +48,7 @@
                 </p>
 
                 <div class="flex justify-center">
-                    <a href="/pdf/ArditAhmeti-CV.pdf" download
+                    <a href="/pdf/arditahmeti-cv.pdf" download
                         class="inline-flex text-white bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-blue-600 rounded text-lg items-center">
                         Here is my CV
                         <svg class="w-5 h-5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"

@@ -26,7 +26,7 @@
                 <!-- Email -->
                 <div class="lg:w-1/5 md:w-1/2 w-full px-4">
                     <h2 class="title-font font-medium text-gray-900 tracking-widest text-s mb-3">
-                        <a href="mailto:Arditahmeti6@gmail.com" class="inline-flex items-center">
+                        <a href="mailto:Arditahmeti4@gmail.com" class="inline-flex items-center">
                             <svg xmlns="http://www.w3.org/2000/svg" aria-label="Gmail" role="img" viewBox="0 0 512 512" width="30" height="30" fill="#000000">
                                 <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                                 <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
