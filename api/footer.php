@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ardit Ahmeti</title>
-    <link rel="icon" href="/img/rocket.png">
+    <link rel="icon" href="rocket.png">
     <link rel="stylesheet" href="/css/app.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
@@ -15,7 +15,7 @@
 
             <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
                 <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-                    <img src="/img/rocket.png" class="w-10 h-10" alt="Logo">
+                    <img src="rocket.png" class="w-10 h-10" alt="Logo">
                     <span class="ml-3 text-xl">Portfolio</span>
                 </a>
                 <p class="mt-2 text-sm text-gray-500">Let's talk about work.</p>
