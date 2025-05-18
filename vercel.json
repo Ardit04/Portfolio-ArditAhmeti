@@ -9,11 +9,5 @@
       "source": "/",
       "destination": "/api/home.php"
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1"
-    }
   ]
 }
