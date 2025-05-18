@@ -1,6 +1,13 @@
 <?php
 $experiences = [
     [
+        'company' => 'Upwork',
+        'position' => 'Full Stack Developer',
+        'description' => 'Full Stack Developer experienced in building responsive web applications using React, PHP, and MySQL. Skilled in creating 
+        full CRUD functionality, user authentication, and modern UI design. Focused on clean code and delivering complete solutions.';
+        'duration' => 'January 2025 – Present'
+    ],
+    [
         'company' => 'Tectigon Academy',
         'position' => 'Programmer (Full Stack Developer)',
         'description' => 'Design and develop full-stack web applications using HTML, CSS (TailwindCSS), JavaScript (React), PHP (Laravel), and MySQL. 
