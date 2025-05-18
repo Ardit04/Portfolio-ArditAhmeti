@@ -19,7 +19,7 @@
     <section class="text-gray-600 body-font" id="about">
         <div class="container mx-auto flex px-10 py-10 md:flex-row flex-col items-center">
             <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img class="object-cover object-center rounded" src="/img/ArditAhmeti.JPG" alt="Ardit">
+                <img class="object-cover object-center rounded" src="/img/ardit.jpg" alt="Ardit">
             </div>
             <div
                 class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
