@@ -1,15 +1,15 @@
 <?php
 $education = [  
     [
-        'image' => '/img/master.png',
-        'title' => 'Master in Technology Teaching with ICT',
-        'university' => 'University of Prishtina',
-        'description' => 'Currently pursuing advanced studies in teaching technology effectively.'
+        'image' => '/img/Ubtlogo.png',
+        'title' => ' Bachelor of Computer Science and Engineering',
+        'university' => ' UBT - University for Business and Technology',
+        'description' => 'Currently pursuing with strong focus on software engineering and embedded systems.'
     ],
     [
-        'image' => '/img/bachelor.jpeg',
-        'title' => 'Bachelor in Electrical and Computer Engineering',
-        'university' => 'University of Prishtina',
-        'description' => 'Graduated with strong focus on software engineering and embedded systems.'
+        'image' => '/img/Ubtlogo.png',
+        'title' => 'Gymnasium of Natural Science',
+        'university' => 'Gymnasium "Ulpiana"',
+        'description' => 'Graduated with strong focus on natural science.'
     ],
 ];
