@@ -13,7 +13,7 @@ $experiences = [
         'description' => 'Design and develop full-stack web applications using HTML, CSS (TailwindCSS), JavaScript (React), PHP (Laravel), and MySQL. 
          Maintain and troubleshoot computer systems, provide technical support, and coordinate with suppliers for IT-related equipment and services.
          Focused on building scalable, user-friendly solutions and participating in the full software development lifecycle.',
-        'duration' => 'April 2025 – Present'
+        'duration' => 'April 2025 – June 2025'
     ],
     [
         'company' => 'Tectigon Academy',
