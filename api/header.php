@@ -19,8 +19,9 @@
             </a>
             <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
                 <a href="home.php" class="mr-5 hover:text-gray-900">About</a>
-                <a href="experience.php" class="mr-5 hover:text-gray-900">Experiences</a>
-                <a href="project.php" class="mr-5 hover:text-gray-900">Projects</a>
+                <a href="experience.php" class="mr-5 hover:text-gray-900">Experiences</a>                     
+                <a href="educationandtraining.php" class="mr-5 hover:text-gray-900">Education & Courses</a>
+                <a href="project.php" class="mr-5 hover:text-gray-900">Portfolio</a>
                 <a href="#contact" class="mr-5 hover:text-gray-900">Contact</a>
             </nav>
         </div>
