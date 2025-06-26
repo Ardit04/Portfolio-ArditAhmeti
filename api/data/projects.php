@@ -1,6 +1,7 @@
 <?php
 $projects = [
     [
+        'image' => '/img/Ubtlogo.png',
         'year' => '2025',
         'title' => 'Rent a Car Web Application',
         'description' => 'Developed a full-featured Rent a Car web application that allows users to browse, search, and reserve vehicles online. 
@@ -10,6 +11,7 @@ $projects = [
         'technologies' => 'React.js, PHP, MySQL, HTML, CSS (TailwindCSS)'
     ],
     [
+        'image' => '/img/Ubtlogo.png',
         'year' => '2025',
         'title' => 'E-commerce Website',
         'description' => 'Designed and developed a fully functional e-commerce website that supports product listings, user accounts, shopping cart functionality, 
@@ -18,6 +20,7 @@ $projects = [
         'technologies' => 'React.js, PHP, MySQL, HTML, CSS (TailwindCSS)'
     ],
     [
+        'image' => '/img/PortfolioWebsite.png',
         'year' => '2024',
         'title' => 'Portfolio Website',
         'description' => 'Created a personal portfolio website to showcase my projects and skills. The site features a clean and modern design with sections for 
