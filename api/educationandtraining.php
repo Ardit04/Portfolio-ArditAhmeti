@@ -80,7 +80,7 @@
     </div>
   </section>
 
-  <section class="text-blue-100 body-font bg-blue-100">
+  <section class="text-blue-600 body-font bg-blue-100">
     <div class="container mx-auto px-4 py-12">
       <h1 class="text-3xl font-bold text-center mb-8">My Education & Training</h1>
       <p class="text-gray-600 max-w-xl mx-auto mb-8 text-center">
@@ -91,9 +91,9 @@
       <!-- Tab Buttons -->
       <div class="flex justify-center space-x-4 mb-10">
         <button onclick="showTab('education')" id="btn-education"
-          class="tab-btn bg-blue-100 text-white px-6 py-2 rounded-lg font-medium transition duration-200 shadow hover:bg-green-700">Education</button>
+          class="tab-btn bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition duration-200 shadow hover:bg-blue-700">Education</button>
         <button onclick="showTab('training')" id="btn-training"
-          class="tab-btn border border-blue-100 text-blue-100 px-6 py-2 rounded-lg font-medium transition duration-200 hover:bg-green-50">Training</button>
+          class="tab-btn border bg-blue-600 border-blue-600 text-white px-6 py-2 rounded-lg font-medium transition duration-200 hover:bg-blue-50">Training</button>
       </div>
 
       <!-- Education Tab -->
@@ -104,7 +104,7 @@
               <div class="h-full bg-white p-8 rounded text-center">
                 <img onclick="openModal('<?php echo $edu['image']; ?>')" class="w-full h-64 object-cover rounded mb-4 cursor-pointer hover:opacity-90 transition duration-300" src="<?php echo $edu['image']; ?>" alt="Education Image">
                 <h3 class="text-lg font-medium text-gray-900 mb-2"><?php echo $edu['title']; ?></h3>
-                <p class="text-blue-100 font-semibold"><?php echo $edu['university']; ?></p>
+                <p class="text-blue-600 font-semibold"><?php echo $edu['university']; ?></p>
                 <p class="text-gray-700"><?php echo $edu['description']; ?></p>
               </div>
             </div>
@@ -127,7 +127,7 @@
                   <div class="h-full bg-white p-8 rounded text-center">
                     <img onclick="openModal('<?php echo $training[$j]['image']; ?>')" class="w-full h-64 object-cover rounded mb-4 cursor-pointer hover:opacity-90 transition duration-300" src="<?php echo $training[$j]['image']; ?>" alt="Training Image">
                     <h3 class="text-lg font-medium text-gray-900 mb-2"><?php echo $training[$j]['title']; ?></h3>
-                    <p class="text-blue-100 font-semibold"><?php echo $training[$j]['academy']; ?></p>
+                    <p class="text-blue-600 font-semibold"><?php echo $training[$j]['academy']; ?></p>
                     <p class="text-gray-700"><?php echo $training[$j]['description']; ?></p>
                   </div>
                 </div>
@@ -151,12 +151,12 @@
       document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
       document.querySelectorAll('.tab-btn').forEach(el => {
         el.classList.remove('bg-blue-100', 'text-white');
-        el.classList.add('text-blue-100', 'border', 'border-blue-100');
+        el.classList.add('text-blue-600', 'border', 'border-blue-100');
       });
       document.getElementById(tab).classList.remove('hidden');
       const activeBtn = document.getElementById('btn-' + tab);
       activeBtn.classList.add('bg-blue-100', 'text-white');
-      activeBtn.classList.remove('text-blue-100', 'border', 'border-blue-100');
+      activeBtn.classList.remove('text-blue-600', 'border', 'border-blue-100');
     }
 
     let currentSlide = 0;
