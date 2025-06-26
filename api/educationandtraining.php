@@ -80,7 +80,7 @@
     </div>
   </section>
 
-  <section class="text-blue-600 body-font bg-blue-100">
+  <section class="text-gray-600 body-font bg-blue-100">
     <div class="container mx-auto px-4 py-12">
       <h1 class="text-3xl font-bold text-center mb-8">My Education & Training</h1>
       <p class="text-gray-600 max-w-xl mx-auto mb-8 text-center">
@@ -93,7 +93,7 @@
         <button onclick="showTab('education')" id="btn-education"
           class="tab-btn bg-blue-600 text-white px-6 py-2 rounded-lg font-medium transition duration-200 shadow hover:bg-blue-700">Education</button>
         <button onclick="showTab('training')" id="btn-training"
-          class="tab-btn border bg-blue-600 border-blue-600 text-white px-6 py-2 rounded-lg font-medium transition duration-200 hover:bg-blue-50">Training</button>
+          class="tab-btn border border-blue-600 text-blue-600 px-6 py-2 rounded-lg font-medium transition duration-200 hover:bg-blue-50">Training</button>
       </div>
 
       <!-- Education Tab -->
@@ -150,13 +150,13 @@
     function showTab(tab) {
       document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
       document.querySelectorAll('.tab-btn').forEach(el => {
-        el.classList.remove('bg-blue-100', 'text-white');
-        el.classList.add('text-blue-600', 'border', 'border-blue-100');
+        el.classList.remove('bg-blue-600', 'text-white');
+        el.classList.add('text-blue-600', 'border', 'border-blue-600');
       });
       document.getElementById(tab).classList.remove('hidden');
       const activeBtn = document.getElementById('btn-' + tab);
-      activeBtn.classList.add('bg-blue-100', 'text-white');
-      activeBtn.classList.remove('text-blue-600', 'border', 'border-blue-100');
+      activeBtn.classList.add('bg-blue-600', 'text-white');
+      activeBtn.classList.remove('text-blue-600', 'border', 'border-blue-600');
     }
 
     let currentSlide = 0;
@@ -168,7 +168,7 @@
         slide.classList.toggle('hidden', i !== index);
       });
       dots.forEach((dot, i) => {
-        dot.classList.toggle('bg-green-500', i === index);
+        dot.classList.toggle('bg-blue-500', i === index);
         dot.classList.toggle('bg-gray-300', i !== index);
       });
       currentSlide = index;
