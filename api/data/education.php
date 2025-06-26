@@ -7,7 +7,7 @@ $education = [
         'description' => 'Currently pursuing with strong focus on software engineering and embedded systems.'
     ],
     [
-        'image' => '/img/Ubtlogo.png',
+        'image' => '/img/gjimnazi.png',
         'title' => 'Gymnasium of Natural Science',
         'university' => 'Gymnasium "Ulpiana"',
         'description' => 'Graduated with strong focus on natural science.'
