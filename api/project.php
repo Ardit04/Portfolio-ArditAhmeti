@@ -53,7 +53,7 @@
                     <div class="xl:w-1/4 md:w-1/2 p-4">
                         <div class="bg-gray-100 p-6 rounded-lg h-full flex flex-col justify-between">
                             <div>
-                                <img onclick="openModal('<?php echo $project['image']; ?>')" class="w-full h-64 object-cover rounded mb-4 cursor-pointer hover:opacity-90 transition duration-300" src="<?php echo $edu['image']; ?>" alt="Project Image">
+                                <img onclick="openModal('<?php echo $project['image']; ?>')" class="w-full h-64 object-cover rounded mb-4 cursor-pointer hover:opacity-90 transition duration-300" src="<?php echo $project['image']; ?>" alt="Project Image">
                                 <h3 class="tracking-widest text-blue-500 text-xs font-medium title-font"><?php echo $project['year']; ?></h3>
                                 <h2 class="text-lg text-gray-900 font-medium title-font mb-4"><?php echo $project['title']; ?></h2>
                                 <p id="project-desc-<?php echo $index; ?>" class="leading-relaxed text-base overflow-hidden line-clamp-2 transition-all duration-500">

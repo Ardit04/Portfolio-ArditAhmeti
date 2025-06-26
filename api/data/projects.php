@@ -11,7 +11,7 @@ $projects = [
         'technologies' => 'React.js, PHP, MySQL, HTML, CSS (TailwindCSS)'
     ],
     [
-        'image' => '/img/car.png',
+        'image' => '/img/shopsite.png',
         'year' => '2025',
         'title' => 'E-commerce Website',
         'description' => 'Designed and developed a fully functional e-commerce website that supports product listings, user accounts, shopping cart functionality, 
